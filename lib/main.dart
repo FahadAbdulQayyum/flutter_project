@@ -257,20 +257,47 @@ class _MyHomePageState extends State<MyHomePage> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.search),
-            label: 'Search',
+            icon: Icon(Icons.work),
+            label: 'My Orders',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'Profile',
+            icon: Icon(Icons.card_membership),
+            label: 'Rewards',
           ),
         ],
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add_alert),
+
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: _incrementCounter,
+      //   tooltip: 'Increment',
+      //   child: const Icon(Icons.add_alert),
+      // ),
+
+      floatingActionButton: Stack(
+        children: <Widget>[
+          Positioned(
+            bottom: 16.0,
+            right: 16.0,
+            child: FloatingActionButton(
+              onPressed: _incrementCounter,
+              tooltip: 'Increment',
+              child: const Icon(Icons.add_alert),
+            ),
+          ),
+          Positioned(
+            bottom: 80.0,
+            right: 16.0, // Adjust as needed
+            child: FloatingActionButton(
+              onPressed: () {
+                // Second button action
+              },
+              tooltip: 'Another Action',
+              child: const Icon(Icons.star), // Example icon
+            ),
+          ),
+        ],
       ),
+
     );
   }
 }
