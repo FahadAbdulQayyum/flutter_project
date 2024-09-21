@@ -97,6 +97,25 @@ class _MyHomePageState extends State<MyHomePage> {
               ],
               autoPlay: true,
             ),
+
+            Column(
+              children: [
+                Container(
+                  margin: const EdgeInsets.only(right: 16.0), // Margin space on the right
+                  alignment: Alignment.centerLeft, // Align to the left
+                  child: const Text(
+                    'Karsaaz Services',
+                    style: TextStyle(
+                      fontSize: 18, // Change size as needed
+                      // color: Colors.blue, // Change color as needed
+                      // fontWeight: FontWeight.bold, // Optional: make it bold
+                    ),
+                  ),
+                ),
+                // Other widgets here...
+              ],
+            ),
+
             const CustomCarousel(
               imageUrls: [
                 'https://via.placeholder.com/600x200/0000FF/FFFFFF',
