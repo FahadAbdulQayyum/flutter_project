@@ -11,10 +11,11 @@ class AppDrawer extends StatelessWidget {
         padding: EdgeInsets.zero,
         children: <Widget>[
           const DrawerHeader(
-            decoration: BoxDecoration(
-              color: Colors.deepPurple,
-            ),
-            child: Text(
+            // decoration: BoxDecoration(
+            //   color: Colors.deepPurple,
+            // ),
+            child:
+            Text(
               'Menu',
               style: TextStyle(
                 color: Colors.white,
@@ -34,10 +35,10 @@ class AppDrawer extends StatelessWidget {
               Navigator.pop(context);
               showAboutDialog(
                 context: context,
-                applicationName: 'Flutter Demo',
+                applicationName: 'Karsaaz Demo',
                 applicationVersion: '1.0.0',
                 children: const <Widget>[
-                  Text('This is a demo app to showcase Flutter features.'),
+                  Text('This is a Karsaaz demo app to showcase features.'),
                 ],
               );
             },
