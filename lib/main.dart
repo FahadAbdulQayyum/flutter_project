@@ -1,3 +1,5 @@
+
+
 import 'package:flutter/material.dart';
 import 'screens/home_page.dart';
 import 'screens/signup_page.dart';
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const MyHomePage(title: 'Home Page'),
+      home: const MyHomePage(title: ''),
       routes: {
         '/home': (context) => const MyHomePage(title: 'Home Page'),
         '/signup': (context) => const SignUpPage(),
