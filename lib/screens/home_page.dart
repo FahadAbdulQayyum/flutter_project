@@ -91,9 +91,9 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             const CustomCarousel(
               imageUrls: [
-                'https://via.placeholder.com/600x200',
-                'https://via.placeholder.com/600x200/FF0000/FFFFFF',
-                'https://via.placeholder.com/600x200/00FF00/FFFFFF',
+                'https://via.placeholder.com/600x300',
+                'https://via.placeholder.com/600x300/FF0000/FFFFFF',
+                'https://via.placeholder.com/600x300/00FF00/FFFFFF',
               ],
               autoPlay: true,
             ),
@@ -118,9 +118,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
             const CustomCarousel(
               imageUrls: [
-                'https://via.placeholder.com/600x200/0000FF/FFFFFF',
-                'https://via.placeholder.com/600x200/FFFF00/FFFFFF',
-                'https://via.placeholder.com/600x200/FF00FF/FFFFFF',
+                'https://via.placeholder.com/600x300/0000FF/FFFFFF',
+                'https://via.placeholder.com/600x300/FFFF00/FFFFFF',
+                'https://via.placeholder.com/600x300/FF00FF/FFFFFF',
               ],
             ),
 
