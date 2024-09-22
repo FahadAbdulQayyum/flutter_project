@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   const TextSpan(
                     text: 'welcome to Karsaaz.',
-                    style: TextStyle(color: Colors.purple), // Second part color
+                    style: TextStyle(color: Colors.navy), // Second part color
                   ),
                 ],
               ),

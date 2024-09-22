@@ -87,7 +87,7 @@ class _LoginFormState extends State<LoginForm> {
         child: const Text('Login'),
         style: ElevatedButton.styleFrom(
           minimumSize: const Size(double.infinity, 50), // Full-width button
-          backgroundColor: Colors.deepPurple,
+          backgroundColor: Colors.navy,
           foregroundColor: Colors.white,
         ),
       ),
